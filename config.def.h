@@ -59,7 +59,7 @@ static char *fonts[] =
 static const char *fonts[] = 
 #endif // XRESOURCES_PATCH
 {
-	"Hack:pixelsize=11:antialias=true:autohint=true",
+	"Ubuntu Mono:pixelsize=12:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=8:antialias=true:autohint=true"
 };
 #endif // PANGO_PATCH
@@ -116,7 +116,7 @@ static unsigned int columns    = 0;
 #endif // GRID_PATCH
 
 #if LINE_HEIGHT_PATCH
-static unsigned int lineheight = 22;         /* -h option; minimum height of a menu line     */
+static unsigned int lineheight = 26;         /* -h option; minimum height of a menu line     */
 static unsigned int min_lineheight = 8;
 #endif // LINE_HEIGHT_PATCH
 
