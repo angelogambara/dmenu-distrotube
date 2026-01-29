@@ -59,7 +59,7 @@ static char *fonts[] =
 static const char *fonts[] = 
 #endif // XRESOURCES_PATCH
 {
-	"Ubuntu Mono:pixelsize=12:antialias=true:autohint=true",
+	"Hack:weight=bold:pixelsize=12:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=8:antialias=true:autohint=true"
 };
 #endif // PANGO_PATCH
@@ -108,7 +108,7 @@ static unsigned int lines      = 0;
  * 8. solarized-light.h
  * 9. tomorrow-night.h
  */
-#include "colors/doom-one.h"
+#include "colors/catppuccin.h"
 
 #if GRID_PATCH
 /* -g option; if nonzero, dmenu uses a grid comprised of columns and lines */
